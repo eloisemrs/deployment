@@ -3,16 +3,16 @@
 }
 
 body {
-    margin: 0;
+    margin: 2rem;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f1f5f9;
-    color: #375379;
+    background-color: #b842ab;
+    color: #2ec255;
 }
 
 header {
-    padding: 3rem 1.5rem;
-    color: #ffffff;
+    padding: 1.5rem 3rem;
+    color: #47a02c;
     background-color: #14253f;
     text-align: center;
 }
