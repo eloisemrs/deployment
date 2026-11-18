@@ -24,7 +24,7 @@ def index():
     planets = load_planets()
     filtered=filter_planets(planets)
     return render_template("index.html",
-                           workshop_message="Today is the birthday of Fabien!",
+                           workshop_message="Today is the birthday of Fabien!!!",
                            planets=filtered, 
                            methods=sorted({planet["method"] for planet in planets}),
                            selected_method=request.args.get("method", ""),
